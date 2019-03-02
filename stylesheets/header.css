@@ -4,28 +4,24 @@
   position: absolute;
   top: 0;
   text-transform: uppercase;
-  box-sizing: border-box;
-}
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .header h1 {
-  margin: 0;
-}
+  margin: 0; }
 
 .header-left {
   width: 50%;
   float: left;
   text-align: left;
   color: #eee;
-  font-size: 3rem;
-}
+  font-size: 3rem; }
 
 .header-right {
   width: 50%;
   float: right;
   text-align: right;
-  font-size: 2rem;
-}
+  font-size: 2rem; }
 
 .header-right .fa-stack {
-  font-size: 1rem;
-}
+  font-size: 1rem; }

@@ -6,12 +6,12 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Sara Neidorf" %></title>
-    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" %>
-    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" %>
-    <%= stylesheet_link_tag "site" %>
-    <%= stylesheet_link_tag "header" %>
-    <%= stylesheet_link_tag "banner" %>
+    <title>Sara Neidorf</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <link href="/stylesheets/header.css" rel="stylesheet" />
+    <link href="/stylesheets/banner.css" rel="stylesheet" />
 
   </head>
   <body>
@@ -67,6 +67,8 @@
       </div>
     </div> 
     <div class="banner"></div>
-    <%= yield %>
+    <div>
+  <h2>I’m a drummer and drum instructor based in Berlin, Germany.</h2>
+</div>
   </body>
 </html>
