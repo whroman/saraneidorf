@@ -1,21 +1,16 @@
-.social-links {
-  position: absolute;
-  bottom: 1rem;
+.navbar .social-links {
   text-decoration: none;
-
-  a, i.fab {
-    transition: 0.3s ease-in;
-  }
+  margin-top: 0.7rem;
+  margin-right: -1.1rem;
 
   a {
-    color: rgba(0,0,0,0.7);
+    font-size: 1.5rem;
+    color: #fff;
+    transition: 0.3s ease-in;
+    padding: 0.8rem;
 
     &:hover {
-      color: rgba(0,0,0,0.9);
+      color: #000;
     }
-  }
-
-  .fa-stack {
-    font-size: 1.5rem;
   }
 }

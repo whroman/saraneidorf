@@ -1,29 +1,35 @@
 .header {
   width: 100%;
-  padding-top: 6rem;
   text-transform: lowercase;
   box-sizing: border-box;
 
   background-image: image-url("banners/banner-studio-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
 
-  min-height: 40rem;
+  min-height: 42rem;
   position: relative;
 
 
   h1 {
-    margin: 0;
+    margin: 10.8rem 0 -0.8rem 0;
     color: #fff;
-    font-size: 5rem;
+    font-size: 6rem;
     text-shadow: 0 0 80px #000;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
-  .header-left {
+  h2 {
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+    text-shadow: 0 0 30px #000;
+    color: #fff;
+    font-weight: 200;
+  }
+
+  .header-content {
+    margin-top: 3.7rem;
+
     width: 100%;
     float: left;
     text-align: left;
