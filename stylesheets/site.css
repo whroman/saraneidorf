@@ -36,10 +36,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 3.5rem;
     font-weight: 800;
     padding-bottom: 0.5rem; }
+  .content li {
+    font-size: 1rem;
+    line-height: 1.5rem; }
   .content h4 {
     font-size: 1rem;
     line-height: 1.5rem;
-    font-weight: 100; }
+    font-weight: 100;
+    margin-bottom: 1rem; }
   .content .content-header {
     background: #eee;
     color: #111; }

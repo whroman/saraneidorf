@@ -1,4 +1,4 @@
-.header {
+.header-splash {
   width: 100%;
   text-transform: lowercase;
   -webkit-box-sizing: border-box;
@@ -9,18 +9,18 @@
   background-position: top center;
   min-height: 42rem;
   position: relative; }
-  .header h1 {
+  .header-splash h1 {
     margin: 10.8rem 0 -0.8rem 0;
     color: #fff;
     font-size: 6rem;
     text-shadow: 0 0 80px #000; }
-  .header h2 {
+  .header-splash h2 {
     font-size: 2.4rem;
     line-height: 2.2rem;
     text-shadow: 0 0 30px #000;
     color: #fff;
     font-weight: 200; }
-  .header .header-content {
+  .header-splash .header-splash-content {
     margin-top: 3.7rem;
     width: 100%;
     float: left;
