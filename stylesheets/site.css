@@ -23,9 +23,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   padding: 0 2rem; }
 
+.page-column-wrapper {
+  width: 100%;
+  float: left; }
+
 .content {
-  text-align: left;
-  margin-bottom: 2rem; }
+  text-align: left; }
   .content h2 {
     font-size: 3rem;
     line-height: 3.5rem;
@@ -33,9 +36,23 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800; }
   .content h4 {
     font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 100; }
   .content .content-header {
     background: #eee;
     color: #111; }
   .content .content-body {
-    margin-top: 1.5rem; }
+    margin: 1.5rem 0; }
+
+.navbar {
+  text-transform: lowercase;
+  position: absolute;
+  top: 0;
+  z-index: 1; }
+  .navbar .navbar-left, .navbar .navbar-right {
+    width: 50%;
+    float: left; }
+  .navbar .navbar-left {
+    text-align: left; }
+  .navbar .navbar-right {
+    text-align: right; }

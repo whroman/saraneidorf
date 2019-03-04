@@ -1,9 +1,11 @@
 <div class="site-links">
+  <a href="/">About</a>
+  <span>&nbsp;</span>
   <a href="#">Projects</a>
-  <br>
+  <span>&nbsp;</span>
   <a href="#">Videos</a>
-  <br>
+  <span>&nbsp;</span>
   <a href="#">Lessons</a>
-  <br>
+  <span>&nbsp;</span>
   <a href="#">Booking</a>          
 </div>

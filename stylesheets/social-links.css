@@ -1,13 +1,12 @@
-.social-links {
-  position: absolute;
-  bottom: 1rem;
-  text-decoration: none; }
-  .social-links a, .social-links i.fab {
+.navbar .social-links {
+  text-decoration: none;
+  margin-top: 0.7rem;
+  margin-right: -1.1rem; }
+  .navbar .social-links a {
+    font-size: 1.5rem;
+    color: #fff;
     -webkit-transition: 0.3s ease-in;
-    transition: 0.3s ease-in; }
-  .social-links a {
-    color: rgba(0, 0, 0, 0.7); }
-    .social-links a:hover {
-      color: rgba(0, 0, 0, 0.9); }
-  .social-links .fa-stack {
-    font-size: 1.5rem; }
+    transition: 0.3s ease-in;
+    padding: 0.8rem; }
+    .navbar .social-links a:hover {
+      color: #000; }
