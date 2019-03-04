@@ -1,0 +1,26 @@
+{
+  "name": "saraneidorf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whroman/saraneidorf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whroman/saraneidorf/issues"
+  },
+  "homepage": "https://github.com/whroman/saraneidorf#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

@@ -7,66 +7,29 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Sara Neidorf" %></title>
+    <%= stylesheet_link_tag "lib/normalize.min.css" %>
     <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" %>
-    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" %>
     <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "site-links" %>
+    <%= stylesheet_link_tag "social-links" %>
     <%= stylesheet_link_tag "header" %>
-    <%= stylesheet_link_tag "banner" %>
 
   </head>
   <body>
     <div class="header">
-      <div class="header-left">
-        <h1>Sara<br>Neidorf</h1>
-      </div>
-      <div class="header-right">
-        <div>
-          <a href="#">About</a>
-          <span>|</span>
-          <a href="#">Projects</a>
-          <span>|</span>
-          <a href="#">Videos</a>
-          <span>|</span>
-          <a href="#">Lessons</a>
-          <span>|</span>
-          <a href="#">Booking</a>          
+      <div class="page-column">
+        <div class="header-left">
+          <div>
+            <a href="/"><h1>Sara Neidorf</h1></a>
+          </div>
+          <%= partial 'partials/site-links' %>
+          <%= partial 'partials/social-links' %>
+
         </div>
-        <br>
-        <div>
-          <a href="#">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-          <a href="#">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-          <a href="#">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-          <a href="#">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-soundcloud fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-          <a href="#">
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-bandcamp fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </div>
-      </div>
+      </div> 
     </div> 
-    <div class="banner"></div>
-    <%= yield %>
+    <div class="content">
+      <%= yield %>
+    </div>
   </body>
 </html>

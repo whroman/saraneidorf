@@ -1,0 +1,21 @@
+.social-links {
+  position: absolute;
+  bottom: 1rem;
+  text-decoration: none;
+
+  a, i.fab {
+    transition: 0.3s ease-in;
+  }
+
+  a {
+    color: rgba(0,0,0,0.7);
+
+    &:hover {
+      color: rgba(0,0,0,0.9);
+    }
+  }
+
+  .fa-stack {
+    font-size: 1.5rem;
+  }
+}

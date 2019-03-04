@@ -1,31 +1,31 @@
 .header {
   width: 100%;
-  padding: 1rem;
-  position: absolute;
-  top: 0;
-  text-transform: uppercase;
+  padding-top: 6rem;
+  text-transform: lowercase;
   box-sizing: border-box;
-}
 
-.header h1 {
-  margin: 0;
-}
+  background-image: image-url("banners/banner-studio-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 
-.header-left {
-  width: 50%;
-  float: left;
-  text-align: left;
-  color: #eee;
-  font-size: 3rem;
-}
+  min-height: 40rem;
+  position: relative;
 
-.header-right {
-  width: 50%;
-  float: right;
-  text-align: right;
-  font-size: 2rem;
-}
 
-.header-right .fa-stack {
-  font-size: 1rem;
+  h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 5rem;
+    text-shadow: 0 0 80px #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .header-left {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
 }
