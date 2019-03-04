@@ -1,27 +1,22 @@
 .header {
   width: 100%;
-  padding: 1rem;
-  position: absolute;
-  top: 0;
-  text-transform: uppercase;
+  padding-top: 6rem;
+  text-transform: lowercase;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-.header h1 {
-  margin: 0; }
-
-.header-left {
-  width: 50%;
-  float: left;
-  text-align: left;
-  color: #eee;
-  font-size: 3rem; }
-
-.header-right {
-  width: 50%;
-  float: right;
-  text-align: right;
-  font-size: 2rem; }
-
-.header-right .fa-stack {
-  font-size: 1rem; }
+          box-sizing: border-box;
+  background-image: url("/images/banners/banner-studio-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 40rem;
+  position: relative; }
+  .header h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 5rem;
+    text-shadow: 0 0 80px #000; }
+    .header h1:hover {
+      text-decoration: underline; }
+  .header .header-left {
+    width: 100%;
+    float: left;
+    text-align: left; }

@@ -1,0 +1,13 @@
+.social-links {
+  position: absolute;
+  bottom: 1rem;
+  text-decoration: none; }
+  .social-links a, .social-links i.fab {
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in; }
+  .social-links a {
+    color: rgba(0, 0, 0, 0.7); }
+    .social-links a:hover {
+      color: rgba(0, 0, 0, 0.9); }
+  .social-links .fa-stack {
+    font-size: 1.5rem; }

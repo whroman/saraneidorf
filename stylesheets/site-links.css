@@ -1,0 +1,10 @@
+.site-links {
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: 2.3rem;
+  text-decoration: none;
+  text-shadow: 0 0 20px #000; }
+  .site-links a {
+    color: #fff; }
+    .site-links a:hover {
+      text-decoration: underline; }
