@@ -12,10 +12,20 @@
     <%= stylesheet_link_tag "site" %>
     <%= stylesheet_link_tag "site-links" %>
     <%= stylesheet_link_tag "social-links" %>
-    <%= stylesheet_link_tag "header" %>
+    <%= stylesheet_link_tag "header-splash" %>
 
   </head>
   <body>
+    <div class="navbar page-column-wrapper">
+      <div class="page-column">
+        <div class="navbar-left">
+          <%= partial 'partials/site-links' %>    
+        </div>
+        <div class="navbar-right">
+          <%= partial 'partials/social-links' %>
+        </div>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>

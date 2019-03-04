@@ -1,3 +1,7 @@
+# i have done this
+activate :directory_indexes
+
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
