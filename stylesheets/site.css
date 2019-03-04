@@ -39,11 +39,17 @@ h1, h2, h3, h4, h5, h6 {
   .content li {
     font-size: 1rem;
     line-height: 1.5rem; }
+  .content h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.1rem; }
   .content h4 {
     font-size: 1rem;
-    line-height: 1.5rem;
     font-weight: 100;
-    margin-bottom: 1rem; }
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem; }
+  .content p {
+    font-size: 1rem;
+    line-height: 1.5rem; }
   .content .content-header {
     background: #eee;
     color: #111; }
@@ -52,6 +58,14 @@ h1, h2, h3, h4, h5, h6 {
     .content .content-body a {
       color: #fff;
       text-decoration: underline; }
+    .content .content-body .icon {
+      font-size: 1.6rem;
+      padding: 0.5rem;
+      text-decoration: none;
+      display: inline-block;
+      color: #fff; }
+      .content .content-body .icon:hover {
+        color: #ddd; }
 
 .navbar {
   text-transform: lowercase;
