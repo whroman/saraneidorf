@@ -16,29 +16,6 @@
 
   </head>
   <body>
-    <div class="navbar page-column-wrapper">
-      <div class="page-column">
-        <div class="navbar-left">
-          <%= partial 'partials/site-links' %>    
-        </div>
-        <div class="navbar-right">
-          <%= partial 'partials/social-links' %>
-        </div>
-      </div>
-    </div>
-    <div class="header page-column-wrapper">
-      <div class="page-column">
-        <div class="header-content">
-          <h1>Sara Neidorf</h1>
-          <div class="subheader">
-            <h2>Drummer</h2>
-            <h2>Instructor</h2>
-          </div>
-        </div>
-      </div> 
-    </div> 
-    <div class="content">
-      <%= yield %>
-    </div>
+    <%= yield %>
   </body>
 </html>

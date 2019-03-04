@@ -10,7 +10,7 @@ body {
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   text-align: center;
   background: #222; 
-
+  min-width: 49rem;
 }
 
 a {
@@ -45,8 +45,9 @@ h1, h2, h3, h4, h5, h6 {
   h2 {
     font-size: 3rem;
     line-height: 3.5rem;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
     font-weight: 800;
+    padding-bottom: 0.5rem;
   }
 
   h4 {
@@ -62,14 +63,20 @@ h1, h2, h3, h4, h5, h6 {
 
   .content-body {
     margin: 1.5rem 0;
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
   }
 }
 
 .navbar {
   text-transform: lowercase;
-  position: absolute;
-  top: 0;
+  background: transparent;
+  margin-bottom: -2.4rem;
   z-index: 1;
+  position: relative;
 
   .navbar-left, .navbar-right {
     width: 50%;
