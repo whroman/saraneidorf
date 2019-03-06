@@ -1,9 +1,10 @@
 .site-links {
-  margin-top: 0.8rem;
-  font-size: 1.3rem;
-  font-weight: 100;
-
   a {
+    padding: 0.8rem 0;
+    display: inline-block;
+
+    font-size: 1.3rem;
+    font-weight: 100;
     color: white;
 
     &:hover {
