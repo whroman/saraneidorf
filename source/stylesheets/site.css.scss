@@ -9,8 +9,9 @@ body {
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   text-align: center;
-  background: #222; 
+  background: #222;
   min-width: 49rem;
+  position: relative;
 }
 
 a {
@@ -52,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
   li {
     font-size: 1rem;
-    line-height: 1.5rem;    
+    line-height: 1.5rem;
   }
 
   h3 {
@@ -69,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
   p {
     font-size: 1rem;
-    line-height: 1.5rem;    
+    line-height: 1.5rem;
   }
 
   video {
@@ -104,22 +105,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-  text-transform: lowercase;
-  background: transparent;
-  margin-bottom: -2.4rem;
   z-index: 1;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  text-transform: lowercase;
+  text-shadow: 0 0 80px #000;
+
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
+  padding-bottom: 1rem;
 
   .navbar-left, .navbar-right {
-    width: 50%;
     float: left;
   }
 
   .navbar-left {
+    width: 60%;
     text-align: left;
   }
 
   .navbar-right {
+    width: 40%;
     text-align: right;
   }
 }

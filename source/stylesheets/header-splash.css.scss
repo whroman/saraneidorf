@@ -3,7 +3,7 @@
   text-transform: lowercase;
   box-sizing: border-box;
 
-  background-image: image-url("banners/banner-studio-2.jpg");
+  background-image: image-url("banners/banner-studio.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -13,7 +13,7 @@
 
 
   h1 {
-    margin: 10.8rem 0 -0.8rem 0;
+    margin: 8.8rem 0 -0.8rem 0;
     color: #fff;
     font-size: 6rem;
     text-shadow: 0 0 80px #000;
@@ -28,10 +28,6 @@
   }
 
   .header-splash-content {
-    margin-top: 3.7rem;
-
-    width: 100%;
-    float: left;
-    text-align: left;
+    text-align: right;
   }
 }
