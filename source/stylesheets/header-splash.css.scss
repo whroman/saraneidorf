@@ -11,23 +11,26 @@
   min-height: 42rem;
   position: relative;
 
-
   h1 {
-    margin: 8.8rem 0 -0.8rem 0;
+    margin: 0 0 -0.8rem 0;
     color: #fff;
     font-size: 6rem;
     text-shadow: 0 0 80px #000;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
   }
 
   h2 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     line-height: 2.2rem;
-    text-shadow: 0 0 30px #000;
+    text-shadow: 0 0 20px #000;
     color: #fff;
-    font-weight: 200;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
   }
 
   .header-splash-content {
     text-align: right;
+    margin-top: 11.2rem;
   }
 }
