@@ -39,6 +39,20 @@
       </div>
     </div>
 
-    <%= yield %>
+    <div class="content">
+      <svg class="content-header-triangle" preserveAspectRatio="none" viewBox="0 0 1 1">
+        <polygon points="0,0 1,1 0,1" opacity="1"></polygon>
+      </svg>
+
+      <div class="content-header page-column-wrapper">
+        <div class="page-column">
+          <h2><%= current_page.data.title %></h2>
+        </div>
+      </div>
+      <div class="content-body page-column-wrapper">
+        <div class="page-column">
+          <%= yield %>
+        </div>
+      </div>
   </body>
 </html>

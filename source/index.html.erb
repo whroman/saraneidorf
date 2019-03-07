@@ -1,27 +1,7 @@
-<div class="content">
-  <svg class="content-header-triangle" preserveAspectRatio="none" viewBox="0 0 1 1">
-    <polygon points="0,0 1,1 0,1" opacity="1"></polygon>
-  </svg>
+---
+title: about
+---
 
-  <div class="content-header page-column-wrapper">
-    <div class="page-column">
-      <h2>about</h2>
-    </div>
-  </div>
-  <div class="content-body page-column-wrapper">
-    <div class="page-column">
-      <p>
-        Beginning at age 10 with private lessons in rudiments and hand technique, I found my home on the drum kit at age 12, learning the ins and outs of rock music and ear-training at the Paul Green School of Rock Music.
-      </p>
-      <p>
-        From 12-16, I played live and toured with other young musicians and seasoned professionals such as <a href="https://ikewillis.com/">Ike Willis</a> (Frank Zappa), <a href="http://adrianbelew.net/">Adrien Belew</a> (Yes), <a href="http://www.johnwetton.com/">John Wetton</a> (King Crimson), <a href="https://www.frampton.com/">Peter Frampton</a>, Napoleon Murphy Brock (Zappa), among others. I began giving private drum lessons at the age of 17, and am still happily working with students in my studio in Berlin Neukölln.    
-      </p>
-      <p>
-        I’ve been collaborating, gigging, and recording with original bands in Philadelphia and Berlin. Among these Berlin-based projects are Mellowdeath, I Have No Mouth And I Must Scream, Godmother, Eatus Fetus, Attention Horse, Aptera, Madrigal, and The Brian Jonestown Massacre. Most recently, I completed a five-week European tour with the Brian Jonestown Massacre. 
-      </p>
-      <p>
-        Alongside my work as a drummer, I am also a programmer of queer, feminist, and horror cinema. To find out more about my work as a film curator go to <a href="http://www.finalgirlsberlin.com/">finalgirlsberlin.com</a>.
-      </p>
-    </div>  
-  </div>
-</div>
+<% data.about.each do |text| %>
+<p><%= text %></p>
+<% end %>
