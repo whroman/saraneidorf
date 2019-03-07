@@ -3,11 +3,13 @@
           box-sizing: border-box; }
 
 body {
-  color: #eee;
+  color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: 'Source Sans Pro';
   text-align: center;
   background: #222;
-  min-width: 49rem; }
+  min-width: 49rem;
+  position: relative; }
 
 a {
   color: #111;
@@ -20,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-column {
   width: 100%;
-  max-width: 54rem;
+  max-width: 51rem;
   margin: 0 auto;
   padding: 0 2rem; }
 
@@ -28,14 +30,26 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   float: left; }
 
+.columns-2 {
+  width: 100%;
+  float: left; }
+  .columns-2 .column {
+    width: 50%;
+    float: left; }
+    .columns-2 .column:nth-of-type(odd) {
+      padding-right: 1rem; }
+    .columns-2 .column:nth-of-type(even) {
+      padding-left: 1rem; }
+
 .content {
-  text-align: left; }
+  text-align: left;
+  float: left;
+  width: 100%;
+  position: relative; }
   .content h2 {
     font-size: 3rem;
     line-height: 3.5rem;
-    font-weight: 800;
-    margin-top: 3.5rem;
-    margin-bottom: 0.5rem; }
+    font-weight: 800; }
   .content li {
     font-size: 1rem;
     line-height: 1.5rem; }
@@ -53,15 +67,20 @@ h1, h2, h3, h4, h5, h6 {
   .content video {
     margin-top: 0.5rem; }
   .content .content-header {
-    background: #eee;
+    background: #fff;
     color: #111; }
+    .content .content-header h2 {
+      margin: -4rem 0 0.5rem -0.3rem;
+      z-index: 2;
+      position: relative;
+      font-family: 'Lora'; }
   .content .content-body {
-    margin-bottom: 2rem; }
+    padding: 0.1rem 0 0.5rem 0; }
     .content .content-body a {
       color: #fff;
       text-decoration: underline; }
     .content .content-body .icon {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       padding: 0.5rem;
       text-decoration: none;
       display: inline-block;
@@ -70,15 +89,43 @@ h1, h2, h3, h4, h5, h6 {
         color: #ddd; }
 
 .navbar {
-  text-transform: lowercase;
-  background: transparent;
-  margin-bottom: -2.4rem;
   z-index: 1;
-  position: relative; }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-transform: lowercase;
+  text-shadow: 0 0 80px #000;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
+  padding-bottom: 1rem; }
   .navbar .navbar-left, .navbar .navbar-right {
-    width: 50%;
     float: left; }
   .navbar .navbar-left {
+    width: 60%;
     text-align: left; }
   .navbar .navbar-right {
+    width: 40%;
     text-align: right; }
+
+.content-header-triangle {
+  height: 8rem;
+  margin-top: -8rem;
+  position: absolute;
+  z-index: 1;
+  width: calc( 100% - ((100% - 50rem) / 2)); }
+  .content-header-triangle polygon {
+    fill: #fff; }
+
+.video-section .video-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; }
+
+.video-section iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
