@@ -11,7 +11,7 @@
   position: relative; }
   .header-splash h1 {
     margin: 0 0 -0.8rem 0;
-    color: #fff;
+    color: #eee;
     font-size: 6rem;
     text-shadow: 0 0 80px #000;
     font-weight: 700;
@@ -21,7 +21,7 @@
     font-size: 1.8rem;
     line-height: 2.2rem;
     text-shadow: 0 0 20px #000;
-    color: #fff;
+    color: #eee;
     font-weight: 800; }
   .header-splash .header-splash-content {
     text-align: right;

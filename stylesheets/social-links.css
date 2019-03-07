@@ -4,9 +4,9 @@
   margin-right: -0.6rem; }
   .navbar .social-links a {
     font-size: 1.5rem;
-    color: #fff;
-    -webkit-transition: 0.3s ease-in;
-    transition: 0.3s ease-in;
+    color: #eee;
+    -webkit-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
     padding: 0.8rem; }
     .navbar .social-links a:hover {
-      color: #000; }
+      color: #222; }
