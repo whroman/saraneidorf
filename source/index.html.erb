@@ -2,6 +2,10 @@
 title: about
 ---
 
-<% data.about.each do |text| %>
-<p><%= text %></p>
+<% data.about.each do |content| %>
+  <% if content.type == 'paragraph' %>
+    <p><%= content.text %></p>
+  <% else %>
+    <h3><%= content.text %></h3>
+  <% end %>
 <% end %>
