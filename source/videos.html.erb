@@ -4,16 +4,15 @@ title: videos
 
 <br>
 
+
 <div class="columns-2">
 
   <div class="column">
     <div class="video-section">
-      <h3>Mellowdeath</h3>
-      <h4>"The Mellow Dies" live at Tief, Berlin</h4>
+      <h3>Solo</h3>
+      <h4>From March 2019</h4>
       <hr>
-      <div class="video-iframe-wrapper">
-        <iframe src="https://www.youtube.com/embed/ksupLBrSDl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <%= partial('partials/video', :locals => { :youtube_uuid => "mFB3gu7amDc" }) %>
       <br>
     </div>
   </div>
@@ -21,11 +20,33 @@ title: videos
   <div class="column">
     <div class="video-section">
       <h3>Solo</h3>
+      <h4>Jamming to some Sarattma riffs</h4>
+      <hr>
+      <%= partial('partials/video', :locals => { :youtube_uuid => "Vx-xERsdN4I" }) %>
+      <br>
+    </div>
+  </div>
+
+</div>
+
+<div class="columns-2">
+
+  <div class="column">
+    <div class="video-section">
+      <h3>Solo</h3>
       <h4>From back in 2015</h4>
       <hr>
-      <div class="video-iframe-wrapper">
-        <iframe src="https://www.youtube.com/embed/Pj1Z0Tjfg-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <%= partial('partials/video', :locals => { :youtube_uuid => "Pj1Z0Tjfg-4" }) %>
+      <br>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="video-section">
+      <h3>Mellowdeath</h3>
+      <h4>"The Mellow Dies" live at Tief, Berlin</h4>
+      <hr>
+      <%= partial('partials/video', :locals => { :youtube_uuid => "ksupLBrSDl0" }) %>
       <br>
     </div>
   </div>
@@ -40,9 +61,7 @@ title: videos
       <h3>Brian Jonestown Massacre</h3>
       <h4>"When Jokers Attack" live at O2 Forum, London</h4>
       <hr>
-      <div class="video-iframe-wrapper">
-        <iframe src="https://www.youtube.com/embed/wfKa8g6BY_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <%= partial('partials/video', :locals => { :youtube_uuid => "wfKa8g6BY_k" }) %>
       <br>
     </div>
   </div>
@@ -52,9 +71,7 @@ title: videos
       <h3>Brian Jonestown Massacre</h3>
       <h4>"Anemone" live at O2 Forum, London</h4>
       <hr>
-      <div class="video-iframe-wrapper">
-        <iframe src="https://www.youtube.com/embed/hKo0veoTRJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <%= partial('partials/video', :locals => { :youtube_uuid => "hKo0veoTRJA" }) %>
       <br>
     </div>
   </div>
