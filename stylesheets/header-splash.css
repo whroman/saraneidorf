@@ -1,6 +1,5 @@
 .header-splash {
   width: 100%;
-  text-transform: lowercase;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-image: url("/images/banners/banner-studio.jpg");
@@ -18,11 +17,12 @@
     letter-spacing: -0.1rem;
     font-family: 'Lora'; }
   .header-splash h2 {
+    margin-top: 0.3rem;
     font-size: 1.8rem;
     line-height: 2.2rem;
     text-shadow: 0 0 20px #000;
     color: #eee;
-    font-weight: 800; }
+    font-weight: 500; }
   .header-splash .header-splash-content {
     text-align: right;
     margin-top: 11.2rem; }
