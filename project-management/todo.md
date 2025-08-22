@@ -1,0 +1,2 @@
+- the browser tab should say "Sara Neidorf"
+- on-mobile 
